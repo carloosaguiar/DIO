@@ -1,0 +1,19 @@
+{
+  "name": "project-podcasts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "tsx --env-file=.env src/server.ts"
+  },
+  "keywords": [],
+  "author": "Carlos Aguiar",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^25.3.3",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "tsx": "^4.21.0"
+  }
+}
